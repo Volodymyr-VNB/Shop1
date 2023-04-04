@@ -28,7 +28,6 @@ body{
     max-width: 50%;
     flex: 0 0 50%;
 }
-
 .header{
 display: flex;
 height: 100px;
@@ -37,7 +36,6 @@ background-color: rgba(255, 255, 255, 0.75);
 }
 .menu{
     display: flex;
-    position: relative;
 
 }
 .menu li{
@@ -61,116 +59,4 @@ background-color: rgba(255, 255, 255, 0.75);
     background-color: #2c71b8;
     color: white;
 }
-.menu-down {
-    display: none;
-   
-        position: absolute;
-        top: 100%;
-        margin-left: -16px;
-}
-.menu li:hover .menu-down{
-    display: flex;
-    flex-direction: column;
-}
-.menu-down li {
-    width: 280px;
-}
-.col-3-down{
-    max-width: calc(50% + 16px);
-    flex: 0 0 50%;
-}
-.menu-down a{
-    display: block;
-    height: 40px;
-    text-decoration: none;
-    background-color: #2c71b8;
-    color: white;
-    text-align: left;
-    line-height: 40px;
-    font-size: 21px;  
-    padding-left: 20px;
-}
-.menu-down a:hover{
-    background-color: white;
-    color: #2c71b8;
-}
 
-.search-txt {
-    border: none;
-    background: none;
-    color: #235a93; 
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    font-weight: lighter;
-    }
-.search-box {
-        border: 1px solid #2c71b8;
-        height: 40px;
-        width: 200px;
-        display: flex;
-        position: relative;
-        justify-content: flex-end;
-        margin: 5px  0px;
-        }
-.search-btn {
-width: 30px;
-height: 30px;
- display: flex;
-            background: #2c71b8;
-            position: absolute;
-            align-self: flex-end;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-decoration:none;
-            font-size: 15px; 
-            top: 50%;
-            transform: translateY(-50%);
-            margin-right: 5px;
-            }
-.shop-cart{
-display: flex;
-font-size: 18px; 
-color:#2c71b8;
-background-color: white; 
-width: 40px;
-height: 40px;
-justify-content: center;
-align-items: center;
-margin-left: 15px;
-
-}
-.widht-3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
-    margin-right: -15px;
-    
-}
-.number {
-    display: flex;
-    align-items: flex-end;
-    margin-right: -30px;
-    margin-top: -20px;
-}
-.number p{
-    display: flex;
-    background-color: #2c71b8;
-    position: absolute;
-    border: 1px solid #2c71b8; 
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-    font-size: 12px;
-    color: white;
-    justify-content: center;
-    align-items: center;
-   
-}
-input::placeholder{
-    color: #2c71b8; 
-    font-size: 21px; 
-    
-    } 
